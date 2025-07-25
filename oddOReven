@@ -1,0 +1,17 @@
+//Check the given number Odd or even
+let num = 677;
+
+function isOddOrEven(num){
+
+if (num%2 ===0){
+
+    return "The Given number is Even";
+
+
+}else{
+
+    return "The Given number is Odd";
+}
+
+}
+console.log(isOddOrEven(num));

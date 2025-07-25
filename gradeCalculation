@@ -1,0 +1,19 @@
+
+function gradeCalculation(score){
+    let grade = "Fail";
+    switch(true){
+        case score>75:
+            grade = "A+";
+            break;
+        case score>95:
+            grade = "A++";
+            break;
+        case score<35:
+            grade = "Failed";
+            break;
+        default : 
+            grade = "Just Pass";
+    }
+    return grade;
+}
+console.log(gradeCalculation(80))
